@@ -1,0 +1,23 @@
+/* 
+   Name: Progetto13
+   Author: Kostya Silchuk, group 109.
+   Description: Laboratory work N1.Compiler_C++. Individual task 13.
+   Find the hypotenuse c and the perimeter P of a right triangle.
+*/
+#include <iostream>
+#include <math.h>
+
+using namespace std;
+int main (int argc, char**argv)
+{
+	float a,b,c,p;
+	cout<<"to enter a"<<endl;
+
+	cout<<"to enter b"<<endl;
+	cin>>a>>b;	
+	c=sqrt(pow(a,2)+pow(b,2));			
+	cout<<"result:"<<c<<endl;
+	p=a+b+c;
+	cout<<"result:"<<p<<endl;	
+	return 0;
+}
