@@ -1,0 +1,16 @@
+/*
+   Name:Project b.
+   Author:Kostya Silchuk, group 109.
+   Description:Laboratory work N:1 Compiler C++/ variant 13
+*/
+#include <iostream>
+#include <math.h>
+using namespace std;
+
+int main(int argc, char** argv) {
+	float a,b,c;
+	cin>>a>>b;	
+	c=a+b;			
+	cout<<"a+b="<<c<<endl;	
+	return 0;
+}
